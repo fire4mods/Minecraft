@@ -162,9 +162,7 @@
         }
 
         .download-section {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
+            text-align: center;
             margin: 20px 0;
         }
 
@@ -574,7 +572,7 @@
             }
 
             .download-btn {
-                width: 100%;
+                width: 95%;
                 justify-content: center;
             }
         }
@@ -611,9 +609,13 @@
             </div>
         </div>
 
+        <!-- Download Buttons -->
         <div class="download-section">
-            <button onclick="_yy()" class="download-btn" aria-label="Download Now">
-                <i class="fas fa-download"></i> Download Now
+            <button onclick="_yy()" class="download-btn">
+                <i class="fab fa-android"></i> Download for Android
+            </button>
+            <button onclick="window.open('https://appinstallcheck.com/cl/i/qkv3g4', '_blank')" class="download-btn">
+                <i class="fab fa-apple"></i> Download for iOS
             </button>
         </div>
 
